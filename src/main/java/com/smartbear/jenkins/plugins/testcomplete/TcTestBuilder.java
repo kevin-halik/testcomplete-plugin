@@ -580,9 +580,6 @@ public class TcTestBuilder extends Builder implements Serializable {
                     // Do nothing
                 }
             }
-            if (reportFile.exists()) {
-                reportFile.delete();
-            }
         }
     }
 
